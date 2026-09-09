@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="An analog clock drawn with the Canvas API. A refreshed 2019 creative-coding study by Salah-Eddine Lachkar." />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Canvas Clock — Salah-Eddine Lachkar</title>
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/sketch.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div><h1>Canvas Clock</h1><p>A 2019 experiment, revisited.</p></div>
+      <button id="theme" type="button" aria-pressed="false">Light theme</button>
+    </header>
+    <main>
+      <canvas id="canvas" role="img" aria-label="Analog clock showing local time"></canvas>
+      <time id="time">Loading local time…</time>
+    </main>
+    <footer>Drawn with JavaScript &amp; the Canvas API · Salah-Eddine Lachkar</footer>
+  </body>
+</html>

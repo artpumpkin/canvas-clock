@@ -1,0 +1,12 @@
+{
+  "name": "canvas-clock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free Canvas clock, refreshed from my 2019 creative-coding study.",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check js/sketch.js && node --test",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=24" }
+}
